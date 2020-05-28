@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-nacos-service-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.4.140:8848
+      config:
+        server-addr: 192.168.4.140:8848
+        file-extension: yaml
+        prefix: spring-nacos-service-consumer
+  profiles:
+    active: dev
