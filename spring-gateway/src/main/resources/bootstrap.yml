@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.4.140:8848
+      config:
+        server-addr: 192.168.4.140:8848
+        file-extension: yaml
+        prefix: spring-gateway
+  profiles:
+    active: dev
