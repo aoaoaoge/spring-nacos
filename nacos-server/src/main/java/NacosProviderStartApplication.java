@@ -13,8 +13,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(basePackages = {"org.ao"})
 @EnableDiscoveryClient
-public class NacosProviderStart {
+public class NacosProviderStartApplication {
     public static void main(String[] args) {
-        SpringApplication.run(NacosProviderStart.class);
+        SpringApplication.run(NacosProviderStartApplication.class);
     }
 }
